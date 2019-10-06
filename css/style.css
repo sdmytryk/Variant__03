@@ -18,87 +18,98 @@ body {
   background: url("../img/full.svg") no-repeat center center fixed;
   background-size: cover;
 }
-.BodyBG
-{
-    background-color:#FFFFFF;
-    position: absolute;
-    height:75%;
-    width:59%;
-    left:28%;
-    top: 12.5%;
-    opacity:0.6;
+.BodyBG {
+  background-color: #ffffff;
+  position: absolute;
+  height: 75%;
+  width: 59%;
+  left: 28%;
+  top: 12.5%;
+  opacity: 0.6;
 }
 
-.menu
-{
-    background-color:#FFFFFF;
-    position: absolute;
-    left:12.5%;
-    top: 12.5%;
-    height:75%;
-    width:15.5%;
-    opacity:0.4;
+.menu {
+  background-color: #ffffff;
+  position: absolute;
+  left: 12.5%;
+  top: 12.5%;
+  height: 75%;
+  width: 15.5%;
+  opacity: 0.4;
 }
-.MyCreditCard
-{
-    background-color:#FFFFFF;
-    position: absolute;
-    left:30%;
-    top: 20.5%;
-    height:30.7%;
-    width:17.5%;
+#logo {
+  font-size: 100%;
+  color:#332D3D;
+  font-weight: bold;
+  margin-right: 50%;
 }
-.MontlyEarning
-{
-    background-color:#FFFFFF;
-    position: absolute;
-    left:30%;
-    top: 53.5%;
-    height:30.7%;
-    width:17.5%;
+#bar {
+  font-size: 90%;
+  font-weight: bold;
+  list-style-type: none;
+  width: 100%;
+  margin-right: 5%;
 }
-
-.Calander
-{
-    background-color:#FFFFFF;
-    position: absolute;
-    right:15%;
-    top: 53.5%;
-    height:30.7%;
-    width:17.5%;
+#bar a {
+  color: #404447;
 }
-.Statistics
-{
-    background-color:#FFFFFF;
-    position: absolute;
-    right:15%;
-    top: 20.5%;
-    height:30.7%;
-    width:36%;
+#bar a:active {
+  color: #ff8600;
+}
+.MyCreditCard {
+  background-color: #ffffff;
+  position: absolute;
+  left: 30%;
+  top: 20.5%;
+  height: 30.7%;
+  width: 17.5%;
+}
+.MontlyEarning {
+  background-color: #ffffff;
+  position: absolute;
+  left: 30%;
+  top: 53.5%;
+  height: 30.7%;
+  width: 17.5%;
 }
 
-.MontlySale
-{
-    background-color:#FFFFFF;
-    position: absolute;
-    left:49%;
-    top: 53.5%;;
-    height:14.2%;
-    width:17.5%;
+.Calander {
+  background-color: #ffffff;
+  position: absolute;
+  right: 15%;
+  top: 53.5%;
+  height: 30.7%;
+  width: 17.5%;
+}
+.Statistics {
+  background-color: #ffffff;
+  position: absolute;
+  right: 15%;
+  top: 20.5%;
+  height: 30.7%;
+  width: 36%;
 }
 
-.YeallySale
-{
-    background-color:#FFFFFF;
-    position: absolute;
-    left:49%;
-    top: 69.8%;
-    height:14.2%;
-    width:17.5%;  
+.MontlySale {
+  background-color: #ffffff;
+  position: absolute;
+  left: 49%;
+  top: 53.5%;
+  height: 14.2%;
+  width: 17.5%;
+}
+
+.YeallySale {
+  background-color: #ffffff;
+  position: absolute;
+  left: 49%;
+  top: 69.8%;
+  height: 14.2%;
+  width: 17.5%;
 }
 
 header {
- /* background-color: #ffffff;
+  /* background-color: #ffffff;
   opacity: 0.7;*/
   position: absolute;
   top: 14%;
